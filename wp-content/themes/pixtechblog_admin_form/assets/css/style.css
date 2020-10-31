@@ -672,6 +672,7 @@ footer .links li + li {
 .contact_confirm .btnWrap {
 	display: flex;
 	justify-content: center;
+	margin-top: 30px;
 }
 
 .contact_confirm .submit {
