@@ -1,4 +1,4 @@
-$(function(){
+jQuery(function($){
 
   function toggleNav() {
     const $hamburger = $(".hamburger");

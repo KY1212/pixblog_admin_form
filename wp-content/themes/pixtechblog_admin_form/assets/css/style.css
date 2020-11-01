@@ -9,10 +9,6 @@ html {
 	box-sizing: inherit;
 }
 
-body > .menu-global-container {
-	display: none;
-}
-
 a {
 	text-decoration: none;
 	color: inherit;
@@ -109,6 +105,10 @@ header .list {
 	font-size: 18px;
 }
 
+header .list li + li {
+	margin-left: 20px;
+}
+
 header .logo {
 	width: 252px;
 }
@@ -118,13 +118,6 @@ header .titleWrap .subTitle {
 	margin-left: 20px;
 }
 
-header .list li + li {
-	margin-left: 20px;
-}
-
-header .menu {
-	display: none;
-}
 /*=====/header=====*/
 
 /* =====sidebar===== */
@@ -743,8 +736,10 @@ footer .links li + li {
 		width: 100%;
 	}
 
-	header nav {
-		display: none;
+	header .menu .list {
+		align-items: center;
+		flex-direction: column;
+		text-align: left;
 	}
 
 	header .hamburger {
@@ -810,7 +805,6 @@ footer .links li + li {
 	}
 
 	header .menu li {
-		margin-left: 20px;
 		padding-left: 10px;
 		position: relative;
 	}
@@ -828,6 +822,10 @@ footer .links li + li {
 
 	header .menu li + li {
 		margin-top: 20px;
+	}
+
+	header .menu li:last-child {
+		margin-left: 30px;
 	}
 
 	header .logo {

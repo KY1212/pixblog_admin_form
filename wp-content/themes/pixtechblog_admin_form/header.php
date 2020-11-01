@@ -20,32 +20,20 @@
           </p>
         </a>
       </div>
-      <nav>
-        <?php
-          wp_nav_menu( array(
-            'theme_location' => 'global',
-            'menu_class' => 'list',
-            'container' => 'nav', 
-            'depth' => 1
-          ));
-        ?>
-      </nav>
       <div class="hamburger pcNone">
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <div class="menu">
-        <ul>
+      <div class="menu spNone">
           <?php
             wp_nav_menu( array(
               'theme_location' => 'global',
               'menu_class' => 'list',
-              'container' => 'nav', 
+              'container' => 'nav',
               'depth' => 1
             ));
           ?>
-        </ul>
       </div>
     </div>
   </header>
