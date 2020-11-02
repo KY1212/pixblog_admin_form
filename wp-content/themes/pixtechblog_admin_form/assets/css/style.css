@@ -648,6 +648,10 @@ footer .links li + li {
 	margin-top: 20px;
 }
 
+.contact_confirm input {
+	word-break: normal;
+}
+
 .contact_confirm .infoWrap {
 	display: flex;
 	border-bottom: 1px solid #cccccc;
