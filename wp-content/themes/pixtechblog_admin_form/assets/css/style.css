@@ -609,6 +609,7 @@ footer .links li + li {
 .contact_form .item .inputs {
 	margin-top: 10px;
 	border: 1.5px solid #cccccc;
+	word-wrap: break-word;
 }
 
 .contact_form .item textarea {
