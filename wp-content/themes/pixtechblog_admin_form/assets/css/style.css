@@ -1025,4 +1025,8 @@ footer .links li + li {
 		padding: 20px 5px;
 		flex-direction: column;
 	}
+
+	footer .links li + li {
+		margin: 20px 0 0 0;
+	}
 }

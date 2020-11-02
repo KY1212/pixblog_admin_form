@@ -89,7 +89,7 @@ if (1 != $pages) {
   for ($i=1; $i <= $pages; $i++) {
     if (1 != $pages &&(!($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showItems)) {
       echo ($paged == $i)?
-      "<li class='page'><a href='".get_pagenum_link($i)."'>".$i."</a></li>":
+      "<li class='page active'><a href='".get_pagenum_link($i)."'>".$i."</a></li>":
       "<li class='page'><a href='".get_pagenum_link($i)."'>".$i."</a></li>";
     }
   }
